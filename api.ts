@@ -1,6 +1,10 @@
+import React from "react";
+import { API_KEY } from "@env";
 import { QueryFunction } from "react-query";
 
-const API_KEY = "e7999396672fc1dd1a873052946f0c6e";
+// const API_KEY = "e7999396672fc1dd1a873052946f0c6e";
+const apiKey = API_KEY;
+console.log(apiKey);
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export interface Movie {

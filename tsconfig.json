@@ -15,7 +15,8 @@
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
   "exclude": [
     "node_modules",

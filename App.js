@@ -1,3 +1,5 @@
+import React from "react";
+import { API_KEY } from "@env";
 import { useColorScheme } from 'react-native';
 import AppLoading from "expo-app-loading";
 import * as Font from "expo-font";
