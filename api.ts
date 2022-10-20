@@ -1,4 +1,5 @@
 import React from "react";
+// @ts-ignore
 import { API_KEY } from "@env";
 import { QueryFunction } from "react-query";
 
